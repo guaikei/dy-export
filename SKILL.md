@@ -6,6 +6,11 @@ name: dy-export
 description: 抖音公开数据结构化导出（只读）：关键词搜索、博主作品、作品详情、评论、热榜。触发：抖音搜索、热搜、评论、需求挖掘、痛点、作品详情、博主作品、对标账号、播放量、选题、舆情、竞品。小红书、快手、B站、微博、公众号不要用本技能。sec_uid、aweme_id、douyin search、douyin hot、douyin detail、douyin comments。
 license: MIT
 version: 1.5.1
+display_name: "抖音结构化导出｜数据导出CSV·评论导出表格·批量Excel"
+display_name_en: "Douyin Export"
+description_zh: "抖音公开数据只读导出技能：关键词搜索视频与图文、用户与达人搜索、博主作品与粉丝互动数、单条作品详情、视频评论、实时热榜，全部以结构化 JSON 输出，可直接导入 Excel / BI 生成报表与 CSV 表格。支持排序（综合/最多点赞/最新）、时间（1天/7天/半年）、时长与内容类型筛选；出参覆盖作者、点赞/评论/收藏/分享、标签、链接、音乐、话题。包月视频搜索/用户搜索/作品 30 条、评论 50 条，按量单次最多 10000 条。零第三方依赖（Node.js 16.14+），stdout 纯 JSON、日志走 stderr，支持 --save 落盘做周报与选题库。"
+description_en: "Read-only Douyin (TikTok China) data export skill that turns public data into structured JSON for Excel / BI reporting and CSV delivery. Keyword search for videos and image posts, user and creator search, creator posts with follower and engagement stats, single post detail, video comments, and the realtime hot list. Sorting (relevance / most liked / newest), time windows (1d / 7d / 180d), duration and content-type filters. Output covers author, likes, comments, collects, shares, tags, links, music and topics. Monthly plan: up to 30 video/user searches or post pulls and 50 comment pulls; pay-as-you-go up to 10,000 records per call. Zero third-party dependencies (Node.js 16.14+), pure JSON on stdout, logs on stderr, optional --save for local analysis. Requires GUAIKEI_API_TOKEN."
+author: "新郑市怪奇信息技术工作室"
 metadata:
   openclaw:
     emoji: "🎬"
